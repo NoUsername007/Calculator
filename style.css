@@ -67,3 +67,18 @@ button.operator {
     opacity: 0.8;
     cursor: pointer;
 }
+
+@media screen and (width <= 370px) {
+    .calculator {
+        width: 300px;
+    }
+
+    .keys button {
+        height: 50px;
+        width: 50px;
+    }
+
+    .keys {
+        grid-template-columns: repeat(4, 63px);
+    }
+}
